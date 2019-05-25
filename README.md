@@ -37,4 +37,4 @@ npm test
 
 Heisenberg – zb_ye@foxmail.com
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons license" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />this product applies <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International</a>
+<a rel="license" href="https://opensource.org/licenses/MIT"><img alt="Creative Commons license" style="border-width:0" src="https://opensource.org/files/OSI_Approved_License.png" width="100"/></a><br />this project is licensed under <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">The MIT License</a>
