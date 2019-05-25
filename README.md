@@ -1,37 +1,25 @@
 # Soccer-Chat-Bot
 > A chat bot from which you can get some soccer data when you chat with him on WeChat
 
-
-
-You can chat with him on WeChat, telling him what kind of soccer data you want and he is able to answer your requests. Some basic chat functions are also supported.
-
-
+## Display
 ![display](https://user-images.githubusercontent.com/35055583/58366678-6e63a200-7f08-11e9-90a3-1a2d46549782.gif)
 
 ## Installation
+You need python3.7, rasa_nlu, spacy, en_core_web_md, wxpy to run the project
 
-Linux:
-
-    ways to install on linux
-    ways to install on linux
-
-Windows:
-
-    ways to install on windows
-    ways to install on windows
+    git clone
+    pip install -r requirements.txt
     
-## Usage example
+## Explanation
 
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
+    git clone
+    pip install -r requirements.txt
 
-## Development setup
+There are two packages in the project, the nlu_process package and the soccer_data_api package. If you have all the requirements installed, run the "run.py" to start the program.  
 
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
+You may need a token in [football-data](https://www.football-data.org/) website to get the api service. You need to input the token when you run the program for the first time.  
 
-```sh
-make install
-npm test
-```
+Change the user's name in "run.py" to let the chat bot response to the message send by that user.
 
 ## Meta
 
