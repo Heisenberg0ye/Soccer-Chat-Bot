@@ -1,0 +1,6 @@
+goodbye_responses = ["Bye~~", "Bye bye", "See you later"]
+greet_responses1 = ["Hello!", "It's my pleasure to service you", "What can I help you?"]
+greet_responses2 = ["Hello! {0}", "{0}, it's nice to meet you", "What can I help you, {0}?"]
+pardon_responses = ["Could you be more specific?", "Would you say that again in another format?"]
+ask_country = ["Which league do you want to know?", "about which soccer league?"]
+ask_intent = ["Do you want to know the standings of that league or the matches?", "Which one do you want? the ranks or the matches?"]

@@ -1,0 +1,708 @@
+﻿{
+  "rasa_nlu_data": {
+    "regex_features": [
+      {
+        "name": "zipcode",
+        "pattern": "[0-9]{5}"
+      },
+      {
+        "name": "greet",
+        "pattern": "hey[^\\s]*"
+      }
+    ],
+    "entity_synonyms": [
+      {
+        "value": "chinese",
+        "synonyms": [
+          "Chinese",
+          "Chines",
+          "chines"
+        ]
+      },
+      {
+        "value": "vegetarian",
+        "synonyms": [
+          "veggie",
+          "vegg"
+        ]
+      },
+      {
+        "value": "hi",
+        "synonyms": [
+          "expensive",
+          "valued"
+        ]
+      },
+      {
+        "value": "lo",
+        "synonyms": [
+          "cheap"
+        ]
+      }
+    ],
+    "common_examples": [
+      {
+        "text": "hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "howdy",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey there",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "good morning",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "good evening",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "dear sir",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "goodbye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "good bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "stop",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "end",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "farewell",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Bye bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "have a good one",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "which team ranks first in the La Liga",
+        "intent": "rank_search",
+        "entities": [
+          {
+            "start": 30,
+            "end": 37,
+            "value": "La Liga",
+            "entity": "competition"
+          }
+        ]
+      },
+      {
+        "text": "let me know the rank of the Premier League",
+        "intent": "rank_search",
+        "entities": [
+          {
+            "start": 28,
+            "end": 42,
+            "value": "Premier League",
+            "entity": "competition"
+          }
+        ]
+      },
+      {
+        "text": "tell me the ranking of the PL",
+        "intent": "rank_search",
+        "entities": [
+          {
+            "start": 27,
+            "end": 29,
+            "value": "Premier League",
+            "entity": "competition"
+          }
+        ]
+      },
+      {
+        "text": "I am looking for the billboard of Serie A",
+        "intent": "rank_search",
+        "entities": [
+          {
+            "start": 34,
+            "end": 41,
+            "value": "Serie A",
+            "entity": "competition"
+          }
+        ]
+      },
+      {
+        "text": "the standings of the Bundesliga",
+        "intent": "rank_search",
+        "entities": [
+          {
+            "start": 21,
+            "end": 31,
+            "value": "Bundesliga",
+            "entity": "competition"
+          }
+        ]
+      },
+      {
+        "text": "the rankings",
+        "intent": "rank_search",
+        "entities": []
+      },
+      {
+        "text": "I want the table of SA",
+        "intent": "rank_search",
+        "entities": [
+          {
+            "start": 20,
+            "end": 22,
+            "value": "Serie A",
+            "entity": "competition"
+          }
+        ]
+      },
+      {
+        "text": "I want to know the rank of Barcelona",
+        "intent": "rank_search",
+        "entities": [
+          {
+            "start": 27,
+            "end": 36,
+            "value": "Barcelona",
+            "entity": "team"
+          }
+        ]
+      },
+      {
+        "text": "the standings",
+        "intent": "rank_search",
+        "entities": []
+      },
+      {
+        "text": "England",
+        "intent": "country",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Premier League",
+            "entity": "competition"
+          }
+        ]
+      },
+      {
+        "text": "the Spain",
+        "intent": "country",
+        "entities": [
+          {
+            "start": 4,
+            "end": 9,
+            "value": "La Liga",
+            "entity": "competition"
+          }
+        ]
+      },
+      {
+        "text": "the standings of Spanish football",
+        "intent": "rank_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "value": "La Liga",
+            "entity": "competition"
+          }
+        ]
+      },
+      {
+        "text": "the billboard of the English soccer",
+        "intent": "rank_search",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "value": "Premier League",
+            "entity": "competition"
+          }
+        ]
+      },
+      {
+        "text": "give me the rankings of the Italy football",
+        "intent": "rank_search",
+        "entities": [
+          {
+            "start": 28,
+            "end": 33,
+            "value": "Serie A",
+            "entity": "competition"
+          }
+        ]
+      },
+      {
+        "text": "Bundesliga",
+        "intent": "country",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Bundesliga",
+            "entity": "competition"
+          }
+        ]
+      },
+      {
+        "text": "the German",
+        "intent": "country",
+        "entities": [
+          {
+            "start": 4,
+            "end": 10,
+            "value": "Bundesliga",
+            "entity": "competition"
+          }
+        ]
+      },
+      {
+        "text": "English",
+        "intent": "country",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Premier League",
+            "entity": "competition"
+          }
+        ]
+      },
+      {
+        "text": "Spanish",
+        "intent": "country",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "La Liga",
+            "entity": "competition"
+          }
+        ]
+      },
+      {
+        "text": "tell me the matches of Barcelona recently",
+        "intent": "match_search",
+        "entities": [
+          {
+            "start": 23,
+            "end": 32,
+            "value": "Barcelona",
+            "entity": "team"
+          }
+        ]
+      },
+      {
+        "text": "I want to know the ongoing matches",
+        "intent": "live_match_search",
+        "entities": []
+      },
+      {
+        "text": "show me the live matches please",
+        "intent": "live_match_search",
+        "entities": []
+      },
+      {
+        "text": "What's the competitions of La Liga nowadays",
+        "intent": "match_search",
+        "entities": [
+          {
+            "start": 27,
+            "end": 34,
+            "value": "La Liga",
+            "entity": "competition"
+          }
+        ]
+      },
+      {
+        "text": "list the games of Barcelona recently",
+        "intent": "match_search",
+        "entities": [
+          {
+            "start": 18,
+            "end": 27,
+            "value": "Barcelona",
+            "entity": "team"
+          }
+        ]
+      },
+      {
+        "text": "the Premier League matches of this round",
+        "intent": "match_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 18,
+            "value": "Premier League",
+            "entity": "competition"
+          }
+        ]
+      },
+      {
+        "text": "tell me the games of England league",
+        "intent": "match_search",
+        "entities": [
+          {
+            "start": 21,
+            "end": 35,
+            "value": "Premier League",
+            "entity": "competition"
+          }
+        ]
+      },
+      {
+        "text": "list all the games that are playing now",
+        "intent": "live_match_search",
+        "entities": []
+      },
+      {
+        "text": "Germany",
+        "intent": "country",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Bundesliga",
+            "entity": "competition"
+          }
+        ]
+      },
+      {
+        "text": "the Italian one",
+        "intent": "country",
+        "entities": [
+          {
+            "start": 4,
+            "end": 11,
+            "value": "Serie A",
+            "entity": "competition"
+          }
+        ]
+      },
+      {
+        "text": "Franch",
+        "intent": "country",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Ligue 1",
+            "entity": "competition"
+          }
+        ]
+      },
+      {
+        "text": "France",
+        "intent": "country",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Ligue 1",
+            "entity": "competition"
+          }
+        ]
+      },
+      {
+        "text": "Italian",
+        "intent": "country",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Serie A",
+            "entity": "competition"
+          }
+        ]
+      },
+      {
+        "text": "SA",
+        "intent": "country",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "Serie A",
+            "entity": "competition"
+          }
+        ]
+      },
+      {
+        "text": "l1",
+        "intent": "country",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "Ligue 1",
+            "entity": "competition"
+          }
+        ]
+      },
+      {
+        "text": "the billboard",
+        "intent": "rank_search",
+        "entities": []
+      },
+      {
+        "text": "list the standings of French football",
+        "intent": "rank_search",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "Ligue 1",
+            "entity": "competition"
+          }
+        ]
+      },
+      {
+        "text": "I am looking for the ranks of German soccer",
+        "intent": "rank_search",
+        "entities": [
+          {
+            "start": 30,
+            "end": 36,
+            "value": "Bundesliga",
+            "entity": "competition"
+          }
+        ]
+      },
+      {
+        "text": "what's the billboard of Ligue 1",
+        "intent": "rank_search",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "Ligue 1",
+            "entity": "competition"
+          }
+        ]
+      },
+      {
+        "text": "tell me the live games",
+        "intent": "live_match_search",
+        "entities": []
+      },
+      {
+        "text": "What's the games of France recently",
+        "intent": "match_search",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "Ligue 1",
+            "entity": "competition"
+          }
+        ]
+      },
+      {
+        "text": "the matches of Ligue 1",
+        "intent": "match_search",
+        "entities": [
+          {
+            "start": 15,
+            "end": 22,
+            "value": "Ligue 1",
+            "entity": "competition"
+          }
+        ]
+      },
+      {
+        "text": "Ligue 1",
+        "intent": "country",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Ligue 1",
+            "entity": "competition"
+          }
+        ]
+      },
+      {
+        "text": "Serie A",
+        "intent": "country",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Serie A",
+            "entity": "competition"
+          }
+        ]
+      },
+      {
+        "text": "Premier League",
+        "intent": "country",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "Premier League",
+            "entity": "competition"
+          }
+        ]
+      },
+      {
+        "text": "La Liga",
+        "intent": "country",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "La Liga",
+            "entity": "competition"
+          }
+        ]
+      },
+      {
+        "text": "hi, my name is Jordan",
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "Jordan",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "you can call me Mike",
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 16,
+            "end": 20,
+            "value": "Mike",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "people call me Kate",
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 15,
+            "end": 19,
+            "value": "Kate",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "the rank",
+        "intent": "rank_search",
+        "entities": []
+      },
+      {
+        "text": "the standings",
+        "intent": "rank_search",
+        "entities": []
+      },
+      {
+        "text": "the table",
+        "intent": "rank_search",
+        "entities": []
+      },
+      {
+        "text": "the live match",
+        "intent": "live_match_search",
+        "entities": []
+      },
+      {
+        "text": "live match",
+        "intent": "live_match_search",
+        "entities": []
+      },
+      {
+        "text": "matches",
+        "intent": "match_search",
+        "entities": []
+      },
+      {
+        "text": "match",
+        "intent": "match_search",
+        "entities": []
+      },
+      {
+        "text": "the match of PL",
+        "intent": "match_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 15,
+            "value": "Premier League",
+            "entity": "competition"
+          }
+        ]
+      },
+      {
+        "text": "live games",
+        "intent": "live_match_search",
+        "entities": []
+      },
+      {
+        "text": "live",
+        "intent": "live_match_search",
+        "entities": []
+      },
+      {
+        "text": "games",
+        "intent": "match_search",
+        "entities": []
+      },
+      {
+        "text": "list the match please",
+        "intent": "match_search",
+        "entities": []
+      }
+    ]
+  }
+}
