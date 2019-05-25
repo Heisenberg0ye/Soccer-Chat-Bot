@@ -21,7 +21,7 @@ There are two packages in the project, the nlu_process package and the soccer_da
 
 You may need a token in [football-data](https://www.football-data.org/) website to get the api service. You need to input the token when you run the program for the first time.  
 
-Change the user's name in "run.py" to let the chat bot response to the message send by that user.
+Change the user's name in "run.py" to let the chat bot response to the message send by specific user.
 
 ## Meta
 
