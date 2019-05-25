@@ -13,7 +13,7 @@ The project needs python3.7, rasa_nlu, spacy, en_core_web_md, wxpy to run. Use t
 ### Run
 Use the following command to run the program.
 
-    PYTHONPATH=/Soccer-Chat-Bot python run.py
+    PYTHONPATH=/Soccer-Chat-Bot/source python run.py
     
 ## Explanation
 
