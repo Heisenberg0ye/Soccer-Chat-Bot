@@ -30,7 +30,7 @@ class Respond(object):
         trainer = Trainer(config.load("config_spacy.yml"))
 
         # Load the training data
-        training_data = load_data('demo-rasa.json')
+        training_data = load_data('rasa-data.json')
 
         # Create an interpreter by training the model
         self.interpreter = trainer.train(training_data)
