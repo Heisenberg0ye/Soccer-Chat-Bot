@@ -3,7 +3,7 @@
 
 
 
-You can chat with him on WeChat, telling him what kind of soccer data you want and he is able to answer your requests. Some basic chat function is also supported.
+You can chat with him on WeChat, telling him what kind of soccer data you want and he is able to answer your requests. Some basic chat functions are also supported.
 
 
 ![display](https://user-images.githubusercontent.com/35055583/58366678-6e63a200-7f08-11e9-90a3-1a2d46549782.gif)
