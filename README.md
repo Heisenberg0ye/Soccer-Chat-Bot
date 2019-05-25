@@ -8,7 +8,7 @@ You can chat with him on WeChat, telling him what kind of soccer data you want a
 
 ![display](https://user-images.githubusercontent.com/35055583/58366678-6e63a200-7f08-11e9-90a3-1a2d46549782.gif)
 
-## installation
+## Installation
 
 Linux:
 
