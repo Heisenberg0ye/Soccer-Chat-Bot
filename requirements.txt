@@ -7,5 +7,5 @@ rasa-nlu==0.14.6
 scikit-learn==0.20.3
 scipy==1.2.1
 spacy==2.0.11
-tensorflow==1.13.1
+tensorflow==1.15.0
 wxpy==0.3.9.8
